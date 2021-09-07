@@ -1,14 +1,14 @@
 {
-    "name": "git_zjx/ysd-supports",
+    "name": "git-zjx/ysd-supports",
     "description": "common components",
     "keywords": ["support", "array", "collection", "config", "http", "guzzle", "throttle"],
     "support": {
-        "issues": "https://github.com/git_zjx/ysd-supports/issues",
-        "source": "https://github.com/git_zjx/ysd-supports"
+        "issues": "https://github.com/git-zjx/ysd-supports/issues",
+        "source": "https://github.com/git-zjx/ysd-supports"
     },
     "authors": [
         {
-            "name": "git_zjx",
+            "name": "git-zjx",
             "email": "977904037@qq.com"
         }
     ],
