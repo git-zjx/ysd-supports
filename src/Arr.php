@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports;
+namespace Git_zjx\Supports;
 
 use ArrayAccess;
 
@@ -92,7 +92,7 @@ class Arr
      *
      * if not array access, return original.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param mixed $data
      *
@@ -535,7 +535,7 @@ class Arr
     /**
      * Convert encoding.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $from_encoding
      */
@@ -554,7 +554,7 @@ class Arr
     /**
      * camelCaseKey.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param mixed $data
      *
@@ -580,7 +580,7 @@ class Arr
     /**
      * snakeCaseKey.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param mixed $data
      *

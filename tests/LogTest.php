@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Supports\Tests;
+namespace Git_zjx\Supports\Tests;
 
-use Yansongda\Supports\Log;
+use Git_zjx\Supports\Log;
 
 class LogTest extends TestCase
 {

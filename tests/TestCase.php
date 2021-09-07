@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports\Tests;
+namespace Git_zjx\Supports\Tests;
 
 use PHPUnit\Framework\TestCase as PHPUnitTestCase;
 

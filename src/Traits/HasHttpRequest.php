@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports\Traits;
+namespace Git_zjx\Supports\Traits;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;
@@ -31,7 +31,7 @@ trait HasHttpRequest
     /**
      * Send a GET request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return array|string
      */
@@ -46,7 +46,7 @@ trait HasHttpRequest
     /**
      * Send a POST request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string|array $data
      *
@@ -66,7 +66,7 @@ trait HasHttpRequest
     /**
      * Send request.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return array|string
      */
@@ -78,7 +78,7 @@ trait HasHttpRequest
     /**
      * Set http client.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return $this
      */
@@ -104,7 +104,7 @@ trait HasHttpRequest
     /**
      * Get default http client.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function getDefaultHttpClient(): Client
     {
@@ -114,7 +114,7 @@ trait HasHttpRequest
     /**
      * setBaseUri.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return $this
      */
@@ -133,7 +133,7 @@ trait HasHttpRequest
     /**
      * getBaseUri.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function getBaseUri(): string
     {
@@ -171,7 +171,7 @@ trait HasHttpRequest
     /**
      * Get default options.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function getOptions(): array
     {
@@ -185,7 +185,7 @@ trait HasHttpRequest
     /**
      * setOptions.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return $this
      */
@@ -209,7 +209,7 @@ trait HasHttpRequest
     /**
      * Convert response.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return array|string
      */

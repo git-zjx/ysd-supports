@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports;
+namespace Git_zjx\Supports;
 
 /**
  * @method static void emergency($message, array $context = array())
@@ -32,7 +32,7 @@ class Log extends Logger
     /**
      * __call.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $method
      * @param array  $args
@@ -47,7 +47,7 @@ class Log extends Logger
     /**
      * __callStatic.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $method
      * @param array  $args
@@ -62,9 +62,9 @@ class Log extends Logger
     /**
      * getInstance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
-     * @return \Yansongda\Supports\Logger
+     * @return \Git_zjx\Supports\Logger
      */
     public static function getInstance(): Logger
     {
@@ -78,9 +78,9 @@ class Log extends Logger
     /**
      * setInstance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
-     * @param \Yansongda\Supports\Logger $logger
+     * @param \Git_zjx\Supports\Logger $logger
      *
      * @throws \Exception
      */

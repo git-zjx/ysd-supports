@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Supports\Traits;
+namespace Git_zjx\Supports\Traits;
 
 use ReflectionClass;
-use Yansongda\Supports\Str;
+use Git_zjx\Supports\Str;
 
 trait Arrayable
 {
     /**
      * toArray.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @throws \ReflectionException
      */

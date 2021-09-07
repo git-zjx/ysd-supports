@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports;
+namespace Git_zjx\Supports;
 
 use ArrayAccess;
 use ArrayIterator;

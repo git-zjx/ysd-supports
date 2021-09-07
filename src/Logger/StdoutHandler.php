@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports\Logger;
+namespace Git_zjx\Supports\Logger;
 
 use Monolog\Handler\AbstractProcessingHandler;
 use Monolog\Logger;

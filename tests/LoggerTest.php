@@ -1,11 +1,11 @@
 <?php
 
-namespace Yansongda\Supports\Tests;
+namespace Git_zjx\Supports\Tests;
 
 use Monolog\Formatter\FormatterInterface;
 use Monolog\Handler\AbstractHandler;
 use Psr\Log\LoggerInterface;
-use Yansongda\Supports\Logger;
+use Git_zjx\Supports\Logger;
 
 class LoggerTest extends TestCase
 {

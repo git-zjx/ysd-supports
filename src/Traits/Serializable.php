@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Supports\Traits;
+namespace Git_zjx\Supports\Traits;
 
 use RuntimeException;
 
@@ -11,7 +11,7 @@ trait Serializable
     /**
      * toJson.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return string
      */

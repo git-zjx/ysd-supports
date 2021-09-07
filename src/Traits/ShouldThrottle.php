@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports\Traits;
+namespace Git_zjx\Supports\Traits;
 
 use Predis\Client;
 
@@ -26,7 +26,7 @@ trait ShouldThrottle
     /**
      * isThrottled.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $key
      * @param int    $limit
@@ -66,7 +66,7 @@ trait ShouldThrottle
     /**
      * 限流 + 1.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $key
      * @param int    $period
@@ -82,7 +82,7 @@ trait ShouldThrottle
     /**
      * getResetTime.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param $key
      * @param $now
@@ -108,7 +108,7 @@ trait ShouldThrottle
     /**
      * 获取限流相关信息.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string|null $key
      * @param mixed|null  $default
@@ -131,7 +131,7 @@ trait ShouldThrottle
     /**
      * 获取已使用次数.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $key
      * @param int    $period

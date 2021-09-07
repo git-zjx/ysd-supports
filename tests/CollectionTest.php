@@ -1,8 +1,8 @@
 <?php
 
-namespace Yansongda\Supports\Tests;
+namespace Git_zjx\Supports\Tests;
 
-use Yansongda\Supports\Collection;
+use Git_zjx\Supports\Collection;
 
 class CollectionTest extends TestCase
 {
@@ -23,7 +23,7 @@ class CollectionTest extends TestCase
     public function setUp()
     {
         $this->data = [
-            'name' => 'yansongda',
+            'name' => 'Git_zjx',
             'age' => 26,
             'sex' => 1,
             'language' => [
@@ -45,7 +45,7 @@ class CollectionTest extends TestCase
 
     public function testMagicGet()
     {
-        $this->assertEquals('yansongda', $this->collection->name);
+        $this->assertEquals('Git_zjx', $this->collection->name);
         $this->assertEquals(['php', 'java', 'python'], $this->collection->language);
     }
 
@@ -79,14 +79,14 @@ class CollectionTest extends TestCase
     public function testOnly()
     {
         $this->assertEquals([
-            'name' => 'yansongda',
+            'name' => 'Git_zjx',
         ], $this->collection->only(['name']));
     }
 
     public function testExcept()
     {
         $this->assertEquals([
-            'name' => 'yansongda',
+            'name' => 'Git_zjx',
             'age' => 26,
             'sex' => 1,
         ], $this->collection->except('language')->all());

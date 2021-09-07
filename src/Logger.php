@@ -1,6 +1,6 @@
 <?php
 
-namespace Yansongda\Supports;
+namespace Git_zjx\Supports;
 
 use Exception;
 use Monolog\Formatter\FormatterInterface;
@@ -52,7 +52,7 @@ class Logger
      */
     protected $config = [
         'file' => null,
-        'identify' => 'yansongda.supports',
+        'identify' => 'Git_zjx.supports',
         'level' => BaseLogger::DEBUG,
         'type' => 'daily',
         'max_files' => 30,
@@ -61,7 +61,7 @@ class Logger
     /**
      * Forward call.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param string $method
      * @param array  $args
@@ -76,7 +76,7 @@ class Logger
     /**
      * Set logger.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function setLogger(LoggerInterface $logger): Logger
     {
@@ -88,7 +88,7 @@ class Logger
     /**
      * Return the logger instance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @throws Exception
      */
@@ -104,7 +104,7 @@ class Logger
     /**
      * Make a default log instance.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @throws Exception
      */
@@ -124,7 +124,7 @@ class Logger
     /**
      * setFormatter.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return $this
      */
@@ -138,7 +138,7 @@ class Logger
     /**
      * getFormatter.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function getFormatter(): FormatterInterface
     {
@@ -152,7 +152,7 @@ class Logger
     /**
      * createFormatter.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function createFormatter(): LineFormatter
     {
@@ -168,7 +168,7 @@ class Logger
     /**
      * setHandler.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return $this
      */
@@ -182,7 +182,7 @@ class Logger
     /**
      * getHandler.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @throws \Exception
      */
@@ -198,7 +198,7 @@ class Logger
     /**
      * createHandler.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @throws \Exception
      *
@@ -218,7 +218,7 @@ class Logger
     /**
      * setConfig.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return $this
      */
@@ -232,7 +232,7 @@ class Logger
     /**
      * getConfig.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      */
     public function getConfig(): array
     {

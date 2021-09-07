@@ -1,9 +1,9 @@
 <?php
 
-namespace Yansongda\Supports\Tests;
+namespace Git_zjx\Supports\Tests;
 
-use Yansongda\Supports\Collection;
-use Yansongda\Supports\Config;
+use Git_zjx\Supports\Collection;
+use Git_zjx\Supports\Config;
 
 class ConfigTest extends TestCase
 {

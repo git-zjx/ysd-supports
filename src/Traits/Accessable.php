@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace Yansongda\Supports\Traits;
+namespace Git_zjx\Supports\Traits;
 
 trait Accessable
 {
     /**
      * __get.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @return mixed
      */
@@ -21,7 +21,7 @@ trait Accessable
     /**
      * __set.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param mixed $value
      *
@@ -35,7 +35,7 @@ trait Accessable
     /**
      * get.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param mixed $default
      *
@@ -62,7 +62,7 @@ trait Accessable
     /**
      * set.
      *
-     * @author yansongda <me@yansongda.cn>
+     * @author Git_zjx <me@Git_zjx.cn>
      *
      * @param mixed $value
      *
